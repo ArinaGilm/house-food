@@ -1,0 +1,33 @@
+.main, .header, .footer {
+    margin: 0 auto;
+    max-width: 500px;
+    text-align: center;
+}
+.header, .footer {
+    background-color: aqua;
+}
+
+
+.gallery-of-dishes {
+display: flex;
+padding: 30px 10px;
+border:  3px solid blue;
+flex-direction: row;
+gap: 8px 10px;
+flex-wrap: wrap;
+
+
+}
+.card-dishes {
+border:  3px solid teal;
+/* увелич */
+flex-shrink: 1;
+/* уменьш */
+flex-grow: 1;
+/* размер */
+flex-basis: 20%;
+/*flex: 0 1 200px*/
+flex-direction: column;
+flex: 1 0 auto;
+}
+
