@@ -15,19 +15,23 @@ border:  3px solid blue;
 flex-direction: row;
 gap: 8px 10px;
 flex-wrap: wrap;
+height: 100vh;
+flex-direction: column;
 
 
 }
 .card-dishes {
 border:  3px solid teal;
-/* увелич */
+/* увелич 
 flex-shrink: 1;
-/* уменьш */
+/* уменьш 
 flex-grow: 1;
-/* размер */
+/* размер 
 flex-basis: 20%;
 /*flex: 0 1 200px*/
-flex-direction: column;
 flex: 1 0 auto;
+
 }
+
+
 
